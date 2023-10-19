@@ -1,15 +1,30 @@
 {
-  "name": "jsaqa_3_2",
+  "name": "hw3",
   "version": "1.0.0",
-  "description": "",
+  "description": "hw3",
   "main": "index.js",
   "scripts": {
-    "test": "playwright"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
   },
-  "author": "",
+  "author": "hw3",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
+    "@playwright/test": "^1.39.0",
     "playwright": "^1.12.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChernovSTEST/jsaqa-code-hw3-4.git#main"
+  },
+  "keywords": [
+    "hw3"
+  ],
+  "bugs": {
+    "url": "https://github.com/ChernovSTEST/jsaqa-code-hw3-4/issues"
+  },
+  "homepage": "https://github.com/ChernovSTEST/jsaqa-code-hw3-4/tree/main#readme"
 }
